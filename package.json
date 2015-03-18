@@ -1,0 +1,27 @@
+{
+  "name": "underskore",
+  "version": "0.0.0",
+  "description": "[Underscore.js](http://underscorejs.org/) and a little more",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kunalgolani/underskore.git"
+  },
+  "keywords": [
+    "underscore",
+    "utility",
+    "javascript"
+  ],
+  "author": "kunalgolani@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunalgolani/underskore/issues"
+  },
+  "homepage": "https://github.com/kunalgolani/underskore",
+  "dependencies": {
+    "underscore": "^1.8.2"
+  }
+}
