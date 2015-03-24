@@ -1,6 +1,6 @@
 {
   "name": "underskore",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "[Underscore.js](http://underscorejs.org/) and a little more",
   "main": "lib/index.js",
   "scripts": {
