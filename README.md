@@ -1,7 +1,7 @@
 # underskore
 [Underscore.js](http://underscorejs.org/) and a little more
 
-+ **delta** `_.diff(object, source)`
++ **delta**  `_.delta(object, source)`
     Returns an object with the values from `object` that are different from the corresponding values in `source`.
 
     ``` javascript
