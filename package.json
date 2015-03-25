@@ -4,7 +4,9 @@
   "description": "[Underscore.js](http://underscorejs.org/) and a little more",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "lint": "jshint lib",
+    "prepublish": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
