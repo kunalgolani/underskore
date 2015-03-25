@@ -4,14 +4,14 @@
 
 [Underscore.js](http://underscorejs.org/) and a little more
 
-+ **delta**  `_.delta(initial, final)`
-    Returns an object with the values from `final` that are different from the corresponding values in `initial`.
++ **delta**  `_.delta(object, reference)`
+    Returns an object with the values from `object` that are different from the corresponding values in `reference`.
 
     ``` javascript
-    var initial = {a: 1, b: 2, c: 2},
-        final = {a: 2, b: 1, c: 2};
+    var reference = {a: 1, b: 2, c: 2},
+        object = {a: 2, b: 1, c: 2};
 
-    _.delta(initial, final);
+    _.delta(object, reference);
     => {a: 2, b: 1}
     ```
 
