@@ -25,14 +25,14 @@
   },
   "homepage": "https://github.com/kunalgolani/underskore",
   "dependencies": {
-    "underscore": "^1.8.2"
+    "underscore": "~1.8.2"
   },
   "devDependencies": {
-    "chai": "^2.1.2",
-    "coveralls": "^2.11.2",
-    "jscoverage": "^0.5.9",
-    "jshint": "^2.6.3",
-    "mocha": "^2.2.1",
-    "mocha-lcov-reporter": "0.0.2"
+    "chai": "~2.1.2",
+    "coveralls": "~2.11.2",
+    "jscoverage": "~0.5.9",
+    "jshint": "~2.6.3",
+    "mocha": "~2.2.1",
+    "mocha-lcov-reporter": "~0.0.2"
   }
 }
