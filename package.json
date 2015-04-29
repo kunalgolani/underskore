@@ -3,11 +3,14 @@
   "version": "0.0.8",
   "description": "[Underscore.js](http://underscorejs.org/) and a little more",
   "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha -R spec",
     "lint": "jshint .",
-    "coverage": "mocha -r jscoverage -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js",
-    "prepublish": "npm run lint && npm run test && npm run coverage"
+    "test": "mocha -r jscoverage -R spec",
+    "coverage": "mocha -r jscoverage -R mocha-lcov-reporter --covout=html test | ./node_modules/coveralls/bin/coveralls.js && open covreporter/index.html",
+    "prepublish": "npm run lint && npm test && npm run coverage"
   },
   "repository": {
     "type": "git",
