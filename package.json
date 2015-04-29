@@ -1,6 +1,6 @@
 {
   "name": "underskore",
-  "version": "0.0.9",
+  "version": "0.0.8",
   "description": "[Underscore.js](http://underscorejs.org/) and a little more",
   "main": "lib/index.js",
   "directories": {
@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "jshint .",
     "test": "mocha -r jscoverage -R spec",
-    "coverage": "mocha -r jscoverage -R mocha-lcov-reporter --covout=html test | ./node_modules/coveralls/bin/coveralls.js && open covreporter/index.html",
+    "coverage": "mocha -r jscoverage -R mocha-lcov-reporter --covout=html --coverage=95,90,85 test | ./node_modules/coveralls/bin/coveralls.js && open covreporter/index.html",
     "prepublish": "npm run lint && npm test && npm run coverage"
   },
   "repository": {
