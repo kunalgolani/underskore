@@ -26,6 +26,8 @@
     => {a: 2, b: 1}
     ```
 
+After installing dev dependencies, you can run tests with `npm test` and generate coverage reports with `npm run coverage`.
+
 Feel free to fork, extend and contribute. :)
 
 [npm-img]: http://img.shields.io/npm/v/underskore.svg
