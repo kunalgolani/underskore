@@ -1,0 +1,2 @@
+--require jscoverage
+--reporter spec
