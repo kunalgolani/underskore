@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "jshint .",
     "test": "mocha",
-    "coverage": "istanbul cover --report lcov _mocha && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && open ./coverage/lcov-report/index.html",
+    "coverage": "istanbul cover _mocha && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && open ./coverage/lcov-report/index.html",
     "prepublish": "npm run lint && npm test && npm run coverage"
   },
   "repository": {
