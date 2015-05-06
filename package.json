@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "jshint .",
     "test": "mocha",
-    "coverage": "istanbul cover _mocha && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && open ./coverage/lcov-report/index.html",
+    "coverage": "istanbul cover _mocha && open ./coverage/lcov-report/index.html",
     "prepublish": "npm run lint && npm test && npm run coverage"
   },
   "repository": {
@@ -34,10 +34,10 @@
     "underscore": "~1.8.2"
   },
   "devDependencies": {
-    "chai": "~2.1.2",
+    "chai": "~2.3.0",
     "coveralls": "~2.11.2",
     "istanbul": "~0.3.13",
-    "jshint": "~2.6.3",
-    "mocha": "~2.2.1"
+    "jshint": "~2.7.0",
+    "mocha": "~2.2.4"
   }
 }
