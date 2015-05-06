@@ -16,6 +16,9 @@
     "type": "git",
     "url": "https://github.com/kunalgolani/underskore.git"
   },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
   "keywords": [
     "underscore",
     "utility",
