@@ -1,7 +1,8 @@
 "use strict";
 
-var _ = require('../lib'),
-	should = require('chai').should();
+var _ = require('../lib');
+
+require('chai').should();
 
 describe('underskore', function() {
 	describe('delta', function() {
